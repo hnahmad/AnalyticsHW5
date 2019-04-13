@@ -1,0 +1,1 @@
+GWS_api_key = "ae33de2d545a03c8e6911403762d6a4f208c7109"

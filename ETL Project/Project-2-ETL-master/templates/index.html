@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wine Inventory</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type='css' href="static/css/style.css">
+  
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="jumbotron text-center">
+        <h1 style="color:red;">Wine Inventory</h1>
+        <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Top California Red Wine</a></p>
+    </div>
+
+
+    <div class="row" id="top-wines">
+        <div class="row col-md-7" id="top-wines">
+            <h2 style="color:blue;"><b>Top reviews</b></h2>
+            {{top_20|safe}}
+        </div> 
+        <div class="row col-md-5" id="top-wines">
+            <a href="TopWineInStock.png">
+            <img src="TopWineInStock.png" alt="wine in stock" width="600" height="500"></a>
+        </div> 
+     </div><!--row-->
+
+  
+  
+  
+  
+  </div><!--container-->
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,20 @@
+head {
+    background-color :#F6CEE3;
+}
+       
+body {
+    color: red;
+    line-height: 1.5;
+}
+       
+
+
+table, th, td {
+  font-weight:bolder;
+  line-height : 2.8;
+  border-right: solid 30px red;
+  border-left: solid 30px red;
+
+}
+
+
